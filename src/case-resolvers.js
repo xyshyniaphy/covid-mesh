@@ -14,7 +14,8 @@ const resolvers = {
         return 0.0
       },
       population: async (input, args, apis) => {
-        const result = await apis.Polulation.api.population({country:"China"})
+          console.log("input",input.name)
+        const result = await apis.Polulation.api.population({country:input.name})
         return toNumber(result.populationString)
       },
 
