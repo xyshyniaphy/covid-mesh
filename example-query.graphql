@@ -1,6 +1,13 @@
 {
-  country(name:"China"){
-    mostRecent{
+  china: country(name: "China") {
+    mostRecent {
+      confirmed
+      deaths
+      date
+    }
+  }
+  japan: country(name: "Japan") {
+    mostRecent {
       confirmed
       deaths
       date
