@@ -11,6 +11,7 @@
     "@graphql-mesh/json-schema": "0.1.10",
     "@graphql-mesh/runtime": "0.1.10",
     "@graphql-mesh/transform-extend": "0.1.10",
-    "graphql": "15.0.0"
+    "graphql": "15.0.0",
+    "lodash": "^4.17.21"
   }
 }
