@@ -3,6 +3,7 @@
     mostRecent{
       confirmed
       deaths
+      date
     }
   }
 }
