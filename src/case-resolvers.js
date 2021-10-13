@@ -5,7 +5,7 @@ const resolvers = {
       deathRate : async (input, args, apis) => {
           if(input.mostRecent &&input.mostRecent.deaths){
               console.log("input",input.mostRecent)
-              const populationResult = await apis.Polulation.api.population({country:"China"})
+              const populationResult = await apis.Polulation.api.population({country:input.name})
               const population = toNumber(populationResult.populationString)
               const deathRate = input.mostRecent.deaths/population
             //   console.log("deathRate",deathRate)
