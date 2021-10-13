@@ -7,11 +7,11 @@ sources:
     handler:
       graphql:
         endpoint: https://population.aibaobao.club/
-transforms:
-  - extend: |
-      extend type Country {
-        deathRate: Float
-        population: Float
-      }
-additionalResolvers:
-  - ./src/case-resolvers.js
+# transforms:
+#   - extend: |
+#       extend type Country {
+#         deathRate: Float
+#         population: Float
+#       }
+# additionalResolvers:
+#   - ./src/case-resolvers.js
